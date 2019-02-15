@@ -44,4 +44,12 @@ console.log("Coins of "+Richards.name+": "+Richards.coins);
 // Modules Demo by importing a module (movies)
 // Here ./ indicates the crrent directory
 var movies = require('./2_movies');
-movies.avatar();
+// movies.avatar();
+movies.printAvatar();
+
+// shared state modules demo
+var adam = require('./2_adam');
+// Here both prints avengers, because when we use modules in NodeJS
+// the default behavious is to share the module among everyother file
+// that imports it (like reference..)
+var richard = require('./2_richard');
