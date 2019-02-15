@@ -1,5 +1,7 @@
 // Run this code in Terminal through command: node app.js
-
+// ============================================================================
+// Code for videos 1,2,3
+// ============================================================================
 // Normal print statement
 console.log('Hello World');
 
@@ -30,6 +32,8 @@ printAdam();
 // Setting a time to the function variable call
 setTimeout(printAdam,5000);
 
+// ============================================================================
+// Code for videos 4,5,6
 // ============================================================================
 
 // Demo code for handling multiple requests
