@@ -1,4 +1,4 @@
-// Run this code in Terminal through command: node app.js
+// Run this code in Terminal through command: node 1_app.js
 // ============================================================================
 // Code for videos 1,2,3
 // ============================================================================
