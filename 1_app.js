@@ -74,14 +74,17 @@ console.log(19 === '19'); //false
 var Andrew = {
     printName: function(){
         console.log("My name is Andrew");
-        console.log(this === Andrew);
+        console.log(this === Andrew); //true
     }
 };
 Andrew.printName();
 
+var Flin = Andrew;
+Flin.printName();
+
 // Note: The default calling context is global
 function something(){
     console.log("Something is done");
-    console.log(this === global);
+    console.log(this === global); //true
 }
 something();
