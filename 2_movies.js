@@ -3,12 +3,14 @@
 // code which imports this and helps to have their (modules which imports this)
 // own custom copy
 
+// Code for Video-11
 module.exports = function(){
     return{
         favMovie : ""
     }
 };
 
+// Code for Videos-9,10
 // exporting everything within module.exports object
 // module.exports = {
 //     favMovie: "",
@@ -20,6 +22,7 @@ module.exports = function(){
 //     }
 // };
 
+// Code for Video-8
 // function printAvatar(){
 //     console.log("Avatar Movie");
 // }
