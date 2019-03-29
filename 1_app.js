@@ -67,8 +67,8 @@ console.log(Tipi.favMovie);
 console.log(John.favMovie);
 
 // == compares only values. But, === compares values and types
-console.log(19 == '19');
-console.log(19 === '19');
+console.log(19 == '19'); //true
+console.log(19 === '19'); //false
 
 // Demo: 'this' refers to the thing that is called
 var Andrew = {
